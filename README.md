@@ -30,8 +30,8 @@ Python · Google Colab · pandas · NumPy · yfinance · matplotlib · Streamlit
 
 Cada análisis debe documentar fuentes, tickers, periodos, frecuencia, moneda, transformaciones, fórmulas y limitaciones. Los resultados históricos no garantizan rendimientos futuros ni constituyen asesoría de inversión.
 
-## Compatibilidad con enlaces anteriores
+## Rutas actuales
 
-Las carpetas originales `01_python_fundamentals/` a `06_financial_app/` y `nivelacion/` se conservan **temporalmente como rutas heredadas** para no interrumpir enlaces de Colab o referencias de EduApp. Para nuevas actividades utilizar las rutas `aprendizaje/` y `evaluaciones/`. Los archivos heredados no son la fuente recomendada para nuevas entregas.
+La estructura anterior fue consolidada. Utiliza únicamente los enlaces de **aprendizaje/**, **evaluaciones/** y **docs/wiki/**. Los enlaces antiguos de Google Colab o EduApp deben actualizarse a estas rutas.
 
 [Documentación](docs/README.md) · [Recursos visuales](assets/README.md) · [Licencia](LICENSE)
