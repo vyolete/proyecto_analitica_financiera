@@ -38,3 +38,8 @@ Un resultado analítico debe poder revisarse y reproducirse. Por eso, cada proye
 **Estado del repositorio:** estructura y descripciones iniciales disponibles. Los notebooks, los informes y la aplicación se incorporarán progresivamente; no se presentan como trabajos terminados.
 
 [Documentación](docs/README.md) · [Recursos visuales](assets/README.md) · [Licencia](LICENSE)
+
+
+## 📚 Wiki académica de analítica financiera
+
+Consulta la [Wiki de analítica financiera con Python](docs/wiki/README.md): fundamentos, calidad de datos, rendimientos, series temporales, riesgo, portafolios, proyecto integrador y bibliografía académica comentada. Complementa los seis notebooks del curso.
