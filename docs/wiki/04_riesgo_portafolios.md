@@ -78,6 +78,6 @@ La teoría media-varianza estudia combinaciones que maximizan rendimiento espera
 
 Construye un portafolio de tres activos; compara volatilidades individuales, matriz de correlación y volatilidad del portafolio. Justifica pesos y comenta por qué el comportamiento histórico no garantiza la diversificación futura.
 
-**Laboratorio:** [Riesgo y simulación](../../05_risk_and_simulation/05_riesgo_simulacion_portafolio.ipynb).
+**Laboratorio:** [Riesgo y simulación](../../aprendizaje/05_riesgo_simulacion/05_riesgo_simulacion_portafolio.ipynb).
 
 **Referencias:** [CFA Institute, Portfolio Risk and Return I](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/portfolio-risk-return-part-1); [CFA Institute, Portfolio Risk and Return II](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/portfolio-risk-return-part-2); [SEC, Diversifying Risk](https://www.sec.gov/resources-small-businesses/capital-raising-building-blocks/diversifying-risk).
