@@ -86,6 +86,6 @@ Evitar: «el activo es el mejor» solo porque tiene la media más alta; podría 
 
 Selecciona dos activos con la misma moneda y periodo. Calcula media, mediana, desviación estándar y rendimiento acumulado. Crea tres gráficos y redacta una comparación en máximo 200 palabras.
 
-**Laboratorio:** [Análisis exploratorio](../../03_exploratory_analysis/03_analisis_exploratorio_portafolio.ipynb).
+**Laboratorio:** [Análisis exploratorio](../../aprendizaje/03_analisis_exploratorio/03_analisis_exploratorio_portafolio.ipynb).
 
 **Referencias:** [CFA Institute, Portfolio Risk and Return I](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/portfolio-risk-return-part-1); [pandas](https://pandas.pydata.org/docs/user_guide/index.html).
