@@ -19,7 +19,7 @@
 7. **Limitaciones**: sesgos de selección, costos, ajustes, cambios de régimen y datos faltantes.
 8. **Reproducibilidad**: celdas ejecutables, versiones de bibliotecas y enlace individual de GitHub.
 
-[Cuaderno integrador de nivelación](../../nivelacion/Cuaderno_Integrador_Nivelacion.ipynb).
+[Cuaderno integrador de nivelación](../../evaluaciones/02_proyecto_analisis_portafolio/Proyecto_1_Analisis_Portafolio.ipynb).
 
 ## Producto 2 · Aplicación Streamlit
 
@@ -64,6 +64,6 @@ Pedir al estudiante explicar una fórmula, justificar una transformación, inter
 - Presentar correlación como causalidad.
 - Prometer rentabilidad futura basándose en una simulación.
 
-**Laboratorio:** [Guía de Streamlit](../../06_financial_app/06_guia_streamlit.ipynb) · [Código inicial](../../06_financial_app/app.py) · [Código final](../../06_financial_app/app_final.py).
+**Laboratorio:** [Guía de Streamlit](../../aprendizaje/06_streamlit/06_guia_streamlit.ipynb) · [Código inicial](../../aprendizaje/06_streamlit/app_ejemplo.py) · [Código final](../../aprendizaje/06_streamlit/app_final_ejemplo.py).
 
 **Documentación:** [Streamlit](https://docs.streamlit.io/); [pandas](https://pandas.pydata.org/docs/).
