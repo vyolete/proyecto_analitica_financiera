@@ -1,17 +1,21 @@
-# Python Fundamentals
+# 01 · Fundamentos de programación
 
-Construir algoritmos para un sistema de facturación: entradas y salidas, variables, operadores, decisiones, ciclos, funciones, listas y diccionarios.
+## El problema
 
-## Objetivo
+Una operación comercial puede parecer sencilla hasta que es necesario establecer reglas para calcular descuentos, impuestos, subtotales y valores finales. Programarla exige identificar la información de entrada, ordenar las operaciones y decidir cómo debe responder el sistema ante diferentes condiciones.
 
-Aplicar los conceptos mediante un caso financiero reproducible y documentado.
+## Qué se aprende
 
-## Producto esperado
+Este módulo introduce el pensamiento algorítmico como una forma de descomponer problemas y expresar procedimientos verificables. Se estudian variables, tipos de datos y operadores para representar valores; estructuras condicionales para formular decisiones; ciclos para procesar operaciones repetidas; y funciones y estructuras de datos para organizar soluciones legibles y reutilizables.
 
-Sistema de facturación reproducible en un notebook.
+## Aplicación
 
-## Estado
+El caso de trabajo es un sistema básico de facturación. Su desarrollo permite explicar por qué se utiliza cada estructura antes de escribirla, comprobar los cálculos y documentar las decisiones del algoritmo.
 
-Estructura inicial. El material didáctico y el código se incorporarán progresivamente.
+## Evidencia esperada
 
-[← Volver al catálogo](../README.md)
+Un cuaderno reproducible que combine explicación, código funcional, pruebas e interpretación de las salidas.
+
+**Estado:** material de aprendizaje en preparación.
+
+[← Catálogo de proyectos](../README.md)
