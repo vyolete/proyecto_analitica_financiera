@@ -65,6 +65,6 @@ rendimientos = precios.pct_change().dropna()
 2. ¿Por qué el volumen no se interpreta igual que el precio?
 3. ¿Cómo documentarías un periodo en el que un activo no cotizó?
 
-**Laboratorio:** [Tratamiento de datos financieros](../../02_financial_data/02_tratamiento_datos_financieros.ipynb).
+**Laboratorio:** [Tratamiento de datos financieros](../../aprendizaje/02_datos_financieros/02_tratamiento_datos_financieros.ipynb).
 
 **Fuentes:** [yfinance](https://ranaroussi.github.io/yfinance/); [pandas, cambio relativo](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.pct_change.html).
