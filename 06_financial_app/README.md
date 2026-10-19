@@ -1,17 +1,21 @@
-# Financial Analytics App
+# 06 · Aplicación de analítica financiera
 
-Integrar consulta de datos, indicadores, gráficos e interpretación en una interfaz interactiva con Streamlit.
+## El problema
 
-## Objetivo
+Un análisis reproducible también debe permitir que otras personas comprendan qué información se utiliza, cómo se calculan los indicadores y qué significan las visualizaciones. Una interfaz interactiva puede facilitar esa exploración, siempre que preserve la transparencia del procedimiento.
 
-Aplicar los conceptos mediante un caso financiero reproducible y documentado.
+## Qué se aprende
 
-## Producto esperado
+Este proyecto integra la consulta de datos financieros, su preparación con pandas, el cálculo de indicadores y la representación gráfica en una aplicación construida con Streamlit. El desarrollo se plantea de forma incremental: primero una versión funcional que permita seleccionar activos y períodos, consultar precios e interpretar medidas básicas; después, una versión ampliada con comparaciones, análisis temporal y herramientas cuantitativas adicionales.
 
-Aplicación funcional y documentada, desarrollada en versiones progresivas.
+## Aplicación
 
-## Estado
+La herramienta permitirá explorar el comportamiento histórico de activos seleccionados y presentar los resultados con explicaciones comprensibles. Los indicadores deberán estar acompañados de sus definiciones, supuestos y limitaciones.
 
-Estructura inicial. El material didáctico y el código se incorporarán progresivamente.
+## Evidencia esperada
 
-[← Volver al catálogo](../README.md)
+Código fuente organizado, instrucciones de ejecución, aplicación funcional y documentación que permita revisar los cálculos y reproducir los resultados.
+
+**Estado:** aplicación en preparación; no se ha publicado una versión funcional.
+
+[← Catálogo de proyectos](../README.md)
