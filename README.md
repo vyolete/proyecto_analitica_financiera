@@ -1,39 +1,40 @@
-# Financial Analytics Lab
-### Programación y analítica financiera con Python
+# Programación y analítica financiera con Python
 
-Colección de proyectos reproducibles para aprender a programar, preparar datos, explorar mercados y desarrollar una aplicación interactiva de análisis financiero.
+**Financial Analytics Lab** · Proyectos reproducibles de programación aplicada a las finanzas
 
-**Tecnologías:** Python · Google Colab · NumPy · pandas · yfinance · matplotlib · Plotly · Streamlit
+La información financiera adquiere valor cuando es posible examinarla de manera rigurosa y convertirla en argumentos para la toma de decisiones. Para ello, no basta con producir tablas o gráficos: es necesario comprender de dónde provienen los datos, cómo se transforman, qué representa cada indicador y cuáles son los límites de las conclusiones obtenidas.
 
-## Explora los proyectos
+Este repositorio reúne una secuencia de proyectos de programación que aborda ese proceso con Python. El recorrido comienza con la formulación de algoritmos y el manejo de estructuras de datos; continúa con la extracción, preparación y exploración de información financiera; y culmina con el desarrollo de una aplicación interactiva que integra cálculos, visualizaciones e interpretación económica.
 
-| Módulo | Proyecto | Aprendizajes |
-|---|---|---|
-| [01 · Python Fundamentals](01_python_fundamentals/README.md) | Sistema de facturación | Algoritmos, variables, condiciones, ciclos, funciones y estructuras |
-| [02 · Financial Data](02_financial_data/README.md) | Preparación de precios históricos | Ingesta, validación, limpieza, pandas y yfinance |
-| [03 · Exploratory Data Analysis](03_exploratory_analysis/README.md) | Exploración de un portafolio | Estadística, rendimientos y visualización |
-| [04 · Financial Time Series](04_time_series/README.md) | Evolución temporal de activos | Tendencias, medias móviles, volatilidad y series |
-| [05 · Risk & Simulation](05_risk_and_simulation/README.md) | Escenarios de inversión | Correlación, distribuciones, riesgo y simulación |
-| [06 · Financial Analytics App](06_financial_app/README.md) | Aplicación Streamlit | Interfaz, integración, interpretación y presentación |
+La programación se utiliza aquí como un instrumento de análisis. Cada proyecto propone una pregunta, presenta los conceptos necesarios para abordarla y deja evidencia del procedimiento seguido para obtener y examinar sus resultados.
 
-## Recorrido sugerido
+## Proyectos
 
-Los módulos siguen una progresión: primero comprender la lógica, después procesar información, analizarla y finalmente construir una herramienta interactiva. Cada carpeta incluirá una guía conceptual, actividades prácticas y evidencias reproducibles. Los notebooks y la aplicación se desarrollarán de manera incremental.
+| Módulo | Pregunta de análisis | Contenido |
+| --- | --- | --- |
+| [01 · Fundamentos de programación](01_python_fundamentals/README.md) | ¿Cómo representar las reglas de una operación comercial mediante un algoritmo? | Variables, operadores, condicionales, ciclos, funciones y estructuras de datos. |
+| [02 · Tratamiento de datos financieros](02_financial_data/README.md) | ¿Qué debe verificarse antes de utilizar precios históricos en un análisis? | Fuentes públicas, yfinance, pandas, limpieza y validación. |
+| [03 · Análisis exploratorio](03_exploratory_analysis/README.md) | ¿Qué revelan los rendimientos sobre el comportamiento de un activo? | Estadística descriptiva, distribuciones y gráficos. |
+| [04 · Series temporales financieras](04_time_series/README.md) | ¿Cómo cambia la interpretación de un activo al examinar su evolución en el tiempo? | Fechas, frecuencias, rezagos, medias móviles y volatilidad. |
+| [05 · Riesgo y simulación](05_risk_and_simulation/README.md) | ¿Cómo estudiar relaciones entre activos y escenarios de resultados posibles? | Correlación, covarianza, cuantiles y simulación. |
+| [06 · Aplicación de analítica financiera](06_financial_app/README.md) | ¿Cómo integrar el análisis en una herramienta que permita explorar activos e interpretar indicadores? | Streamlit, integración de datos, cálculos y visualizaciones. |
 
-## Estado del proyecto
+## Cómo trabajar con los proyectos
 
-**Estructura inicial publicada.** Las guías, notebooks, análisis y aplicación aún están en preparación. No se presentan como resultados terminados.
+Los módulos siguen una progresión conceptual, pero cada uno conserva su propio problema de análisis. Antes de ejecutar código, conviene identificar qué pregunta se busca responder y qué datos se necesitan. Durante el desarrollo, los resultados deben contrastarse con las definiciones de los indicadores y con las funciones de las librerías utilizadas. Al finalizar, la interpretación debe señalar tanto los hallazgos como los supuestos y limitaciones del procedimiento.
 
-## Reproducibilidad
+Los cuadernos de trabajo se desarrollarán en Google Colab y podrán consultarse desde las carpetas correspondientes. La aplicación integradora se documentará en el último módulo.
 
-Los notebooks podrán ejecutarse en Google Colab. La aplicación utilizará las dependencias indicadas en `requirements.txt`. Los datos de mercado proceden de fuentes externas y pueden cambiar; los resultados históricos no garantizan rendimientos futuros.
+## Herramientas
 
-## Organización
+**Python · Google Colab · NumPy · pandas · yfinance · matplotlib · SciPy · Plotly · Streamlit · GitHub**
 
-- [Documentación](docs/README.md)
-- [Recursos visuales](assets/README.md)
-- [Aplicación](06_financial_app/README.md)
+Estas herramientas cumplen funciones diferentes dentro del proceso. Python permite expresar algoritmos; pandas y NumPy facilitan el tratamiento cuantitativo; yfinance proporciona acceso a datos históricos; las librerías gráficas permiten examinar patrones; y Streamlit sirve para presentar el análisis en una interfaz interactiva.
 
-## Licencia
+## Reproducibilidad y alcance
 
-Consulta [LICENSE](LICENSE) para conocer las condiciones de reutilización del material.
+Un resultado analítico debe poder revisarse y reproducirse. Por eso, cada proyecto documentará sus fuentes, transformaciones, decisiones metodológicas y procedimientos de cálculo. Los datos externos pueden actualizarse o presentar restricciones de acceso. Los resultados históricos describen comportamientos observados y no constituyen una predicción ni una recomendación de inversión.
+
+**Estado del repositorio:** estructura y descripciones iniciales disponibles. Los notebooks, los informes y la aplicación se incorporarán progresivamente; no se presentan como trabajos terminados.
+
+[Documentación](docs/README.md) · [Recursos visuales](assets/README.md) · [Licencia](LICENSE)
