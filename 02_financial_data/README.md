@@ -1,21 +1,27 @@
 # 02 · Tratamiento de datos financieros
 
-## El problema
+## El problema de análisis
 
-Los precios históricos descargados de una fuente pública no están necesariamente listos para el análisis. Antes de calcular rendimientos o comparar activos, es necesario examinar las fechas, los tipos de datos, las observaciones faltantes y la consistencia de las series.
+En el primer módulo representamos inversiones con precios hipotéticos. Para avanzar hacia el estudio de los mercados necesitamos obtener observaciones históricas, comprender su estructura y comprobar que sean adecuadas para los cálculos que realizaremos. Un conjunto de precios descargado no constituye, por sí mismo, una base analítica confiable.
 
 ## Qué se aprende
 
-El módulo presenta la extracción, transformación y carga de información financiera como un proceso documentado. Mediante Python, pandas y yfinance se exploran las consultas a fuentes públicas, la construcción de estructuras tabulares, el filtrado, la conversión de tipos y la validación de registros. Cada transformación debe responder a una necesidad identificable en los datos.
+Este módulo introduce la extracción, exploración, validación y transformación de información financiera. Mediante `yfinance` consultamos precios históricos; con `pandas` reconocemos la estructura de los DataFrames, examinamos índices y tipos de datos, identificamos observaciones faltantes y documentamos decisiones de preparación. Posteriormente calculamos rendimientos simples y alineamos las fechas de distintos activos para construir una base comparable.
 
-## Aplicación
+El propósito es comprender **qué significa cada dato, cómo se obtuvo y qué operaciones permiten utilizarlo responsablemente**, en lugar de limitarse a ejecutar instrucciones.
 
-Se prepara una serie de precios históricos para su análisis posterior, registrando las decisiones de limpieza y comprobando que los resultados conservan su significado financiero.
+## Cuaderno de trabajo
 
-## Evidencia esperada
+**[02 · Tratamiento de datos financieros con Python](02_tratamiento_datos_financieros.ipynb)**
 
-Un cuaderno de preparación de datos que pueda ejecutarse nuevamente y que identifique la fuente, los controles de calidad y las transformaciones aplicadas.
+[Abrir en Google Colab](https://colab.research.google.com/github/vyolete/proyecto_analitica_financiera/blob/main/02_financial_data/02_tratamiento_datos_financieros.ipynb)
 
-**Estado:** material de aprendizaje en preparación.
+El cuaderno incluye explicaciones conceptuales, ejemplos con datos históricos, comprobaciones de calidad, visualizaciones y prácticas individuales. La consulta depende de la disponibilidad de la fuente externa.
+
+## Producto esperado
+
+Un notebook reproducible que documente la consulta y preparación de tres activos, compruebe al menos un rendimiento, justifique sus transformaciones y exporte archivos de precios y rendimientos para continuar el análisis exploratorio.
+
+**Estado:** cuaderno disponible; materiales complementarios en preparación.
 
 [← Catálogo de proyectos](../README.md)
