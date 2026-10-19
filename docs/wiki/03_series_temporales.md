@@ -77,6 +77,6 @@ Una serie (débilmente) estacionaria mantiene media y covarianzas que no depende
 
 Para un activo, calcular rendimientos, media móvil de 20 y 50 sesiones, volatilidad móvil de 20 sesiones y drawdown. Redactar qué pregunta responde cada gráfico y qué no permite concluir.
 
-**Laboratorio:** [Series temporales](../../04_time_series/04_series_temporales_financieras.ipynb).
+**Laboratorio:** [Series temporales](../../aprendizaje/04_series_temporales/04_series_temporales_financieras.ipynb).
 
 **Referencias:** [pandas, series temporales](https://pandas.pydata.org/docs/user_guide/timeseries.html); [statsmodels, estacionariedad y ADF/KPSS](https://www.statsmodels.org/stable/examples/notebooks/generated/stationarity_detrending_adf_kpss.html).
