@@ -26,22 +26,15 @@ Esta aplicación permite seleccionar un activo y un rango de fechas, consultar c
 
 La ampliación permite seleccionar varios activos, asignar ponderaciones, estudiar correlaciones y calcular rendimiento acumulado, volatilidad y máximo drawdown del portafolio. Se explicita el supuesto de **reequilibrio a pesos constantes por observación** y se documentan las limitaciones.
 
-## Cómo ejecutar
+## Cómo ejecutar desde Google Colab
 
-Instala Python en tu computador. Descarga el repositorio y abre una terminal dentro de la carpeta `06_financial_app`. Ejecuta:
+**No es necesario instalar Python ni Streamlit en el computador.** Abre la [guía interactiva en Colab](https://colab.research.google.com/github/vyolete/proyecto_analitica_financiera/blob/main/06_financial_app/06_guia_streamlit.ipynb) y ejecuta sus celdas en orden. El notebook instala las bibliotecas en la sesión temporal, descarga el código del repositorio, inicia el servidor Streamlit y permite intentar abrir la interfaz mediante las funciones de acceso a puertos de Colab.
 
-```bash
-python -m pip install -r requirements.txt
-python -m streamlit run app.py
-```
+La versión inicial utiliza `app.py`; la versión ampliada utiliza `app_final.py`. Para cambiar entre ambas, sigue las instrucciones del notebook.
 
-Para abrir la versión ampliada:
+**Limitación:** la apertura de la interfaz depende del soporte de proxy de Colab y puede no funcionar en todas las sesiones. La aplicación no permanece publicada cuando finaliza la sesión. Conserva el código y las evidencias en GitHub; no uses el enlace temporal como única evidencia.
 
-```bash
-python -m streamlit run app_final.py
-```
-
-La terminal mostrará una dirección local para abrir la aplicación en el navegador. Para detenerla utiliza `Ctrl+C`. Si deseas publicarla, consulta las [instrucciones oficiales de despliegue de Streamlit](https://docs.streamlit.io/deploy).
+La ejecución local o el despliegue permanente son alternativas opcionales, **no requisitos de este recorrido**.
 
 ## Hitos de desarrollo y evidencia
 
