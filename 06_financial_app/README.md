@@ -1,21 +1,60 @@
-# 06 · Aplicación de analítica financiera
+# 06 · Aplicación de analítica financiera con Streamlit
 
-## El problema
+## El problema de análisis
 
-Un análisis reproducible también debe permitir que otras personas comprendan qué información se utiliza, cómo se calculan los indicadores y qué significan las visualizaciones. Una interfaz interactiva puede facilitar esa exploración, siempre que preserve la transparencia del procedimiento.
+Los notebooks permiten explorar datos y verificar fórmulas, pero una aplicación interactiva debe organizar esas operaciones en un flujo comprensible para otras personas. El usuario necesita seleccionar activos, definir un período, examinar indicadores y comprender las limitaciones de los resultados.
 
-## Qué se aprende
+Este módulo integra la programación, el tratamiento de datos, el análisis exploratorio, las series temporales y las medidas de riesgo desarrolladas anteriormente. El resultado es **una aplicación que evoluciona en dos versiones**, no dos proyectos independientes.
 
-Este proyecto integra la consulta de datos financieros, su preparación con pandas, el cálculo de indicadores y la representación gráfica en una aplicación construida con Streamlit. El desarrollo se plantea de forma incremental: primero una versión funcional que permita seleccionar activos y períodos, consultar precios e interpretar medidas básicas; después, una versión ampliada con comparaciones, análisis temporal y herramientas cuantitativas adicionales.
+## Guía de aprendizaje
 
-## Aplicación
+**[06 · Construcción de una aplicación de analítica financiera](06_guia_streamlit.ipynb)**
 
-La herramienta permitirá explorar el comportamiento histórico de activos seleccionados y presentar los resultados con explicaciones comprensibles. Los indicadores deberán estar acompañados de sus definiciones, supuestos y limitaciones.
+[Abrir guía en Google Colab](https://colab.research.google.com/github/vyolete/proyecto_analitica_financiera/blob/main/06_financial_app/06_guia_streamlit.ipynb)
 
-## Evidencia esperada
+La guía presenta la arquitectura de Streamlit, las validaciones, la comprobación de cálculos y la progresión entre versiones. El notebook explica el código, pero **la interfaz de Streamlit se ejecuta desde una terminal**.
 
-Código fuente organizado, instrucciones de ejecución, aplicación funcional y documentación que permita revisar los cálculos y reproducir los resultados.
+## Primera versión: analizador individual
 
-**Estado:** aplicación en preparación; no se ha publicado una versión funcional.
+**[Código fuente · app.py](app.py)**
+
+Esta aplicación permite seleccionar un activo y un rango de fechas, consultar cierres históricos, calcular rendimiento acumulado del precio y volatilidad por observación, visualizar la trayectoria y descargar los datos. Incluye validación de fechas, manejo de errores e interpretación básica.
+
+## Versión ampliada: portafolio comparativo
+
+**[Código fuente · app_final.py](app_final.py)**
+
+La ampliación permite seleccionar varios activos, asignar ponderaciones, estudiar correlaciones y calcular rendimiento acumulado, volatilidad y máximo drawdown del portafolio. Se explicita el supuesto de **reequilibrio a pesos constantes por observación** y se documentan las limitaciones.
+
+## Cómo ejecutar
+
+Instala Python en tu computador. Descarga el repositorio y abre una terminal dentro de la carpeta `06_financial_app`. Ejecuta:
+
+```bash
+python -m pip install -r requirements.txt
+python -m streamlit run app.py
+```
+
+Para abrir la versión ampliada:
+
+```bash
+python -m streamlit run app_final.py
+```
+
+La terminal mostrará una dirección local para abrir la aplicación en el navegador. Para detenerla utiliza `Ctrl+C`. Si deseas publicarla, consulta las [instrucciones oficiales de despliegue de Streamlit](https://docs.streamlit.io/deploy).
+
+## Hitos de desarrollo y evidencia
+
+| Hito | Producto | Evidencia diferenciada |
+|---|---|---|
+| S27 · Primera versión | Aplicación funcional de un activo | Código, ejecución, cálculos, gráfico e interpretación |
+| S33 · Ampliación | Aplicación comparativa de varios activos | Indicadores de portafolio, validaciones, análisis y documentación |
+| S34 · Defensa | Explicación individual de la solución | Demostración, justificación de fórmulas y modificación del código |
+
+Estos hitos describen una progresión académica propuesta. Su equivalencia con actividades y porcentajes evaluativos del curso requiere la autorización correspondiente.
+
+## Criterios de reproducibilidad
+
+Se registran fuentes, parámetros de descarga y supuestos. La consulta de Yahoo Finance depende de un servicio externo; los resultados pueden cambiar. Las aplicaciones no incluyen comisiones, impuestos ni aportes o retiros. Las estadísticas históricas y los escenarios calculados **no son predicciones ni recomendaciones de inversión**.
 
 [← Catálogo de proyectos](../README.md)
