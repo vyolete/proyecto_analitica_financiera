@@ -68,6 +68,6 @@ print(f"Ganancia: {ganancia:,.0f}")
 2. ¿Qué información falta si un informe solo dice «volatilidad de 2 %»?
 3. ¿Qué decisión metodológica cambia si se mezclan precios en USD y COP?
 
-**Laboratorio:** [Fundamentos de Python](../../01_python_fundamentals/01_fundamentos_analizador_inversiones.ipynb).
+**Laboratorio:** [Fundamentos de Python](../../aprendizaje/01_fundamentos/01_fundamentos_analizador_inversiones.ipynb).
 
 **Referencia conceptual:** [CFA Institute, Investment Foundations](https://www.cfainstitute.org/programs/investment-foundations-certificate).
