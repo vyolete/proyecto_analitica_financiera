@@ -1,21 +1,29 @@
 # 03 · Análisis exploratorio de datos financieros
 
-## El problema
+## El problema de análisis
 
-Dos activos pueden presentar rendimientos promedio similares y, sin embargo, comportamientos muy diferentes. Una medida aislada no basta para describir la dispersión, la presencia de observaciones extremas o la forma de una distribución.
+Dos activos pueden presentar rendimientos promedio similares y, sin embargo, mostrar comportamientos diferentes. Para comprender esa diferencia es necesario examinar no solo el valor central de los rendimientos, sino también su dispersión, distribución y observaciones extremas.
+
+El análisis exploratorio permite formular preguntas a partir de datos históricos, contrastar cálculos y reconocer qué conclusiones pueden sostenerse con la evidencia disponible.
 
 ## Qué se aprende
 
-Este módulo aborda la exploración cuantitativa mediante rendimientos, tablas de resumen, medidas de tendencia central y dispersión, cuantiles e histogramas. El énfasis está en comprender qué calcula cada procedimiento, contrastar implementaciones con funciones de librería y relacionar las representaciones gráficas con preguntas financieras concretas.
+Este módulo continúa el trabajo de preparación realizado con pandas y yfinance. Se estudian los rendimientos simples, las medidas de tendencia central, la varianza y la desviación estándar muestral, los cuantiles y el rango intercuartílico. También se utilizan precios normalizados, histogramas y diagramas de caja para interpretar diferentes aspectos de la distribución de rendimientos.
 
-## Aplicación
+Cada indicador se introduce mediante su significado, un cálculo verificable y una pregunta de interpretación financiera. El objetivo es comprender **qué describe la estadística y qué no permite concluir**.
 
-Se examina el comportamiento histórico de uno o varios activos y se elabora una interpretación que distinga los resultados numéricos de las conclusiones que los datos permiten sostener.
+## Cuaderno de trabajo
 
-## Evidencia esperada
+**[03 · Análisis exploratorio de datos financieros](03_analisis_exploratorio_portafolio.ipynb)**
 
-Un informe reproducible en notebook, con cálculos, gráficos correctamente rotulados y una explicación de los supuestos y limitaciones del análisis.
+[Abrir en Google Colab](https://colab.research.google.com/github/vyolete/proyecto_analitica_financiera/blob/main/03_exploratory_analysis/03_analisis_exploratorio_portafolio.ipynb)
 
-**Estado:** material de aprendizaje en preparación.
+El notebook puede reutilizar `precios_portafolio.csv` del módulo 02 o consultar las series mediante yfinance. Incluye explicaciones, ejemplos, verificaciones manuales, visualizaciones, prácticas individuales y un reto integrador.
+
+## Producto esperado
+
+Un informe exploratorio reproducible sobre tres activos, con estadísticas descriptivas, gráficos interpretados, comprobaciones manuales, conclusiones y un archivo CSV con el resumen de indicadores.
+
+**Estado:** primer cuaderno disponible. Los datos se consultan a un servicio externo y los resultados pueden variar.
 
 [← Catálogo de proyectos](../README.md)
