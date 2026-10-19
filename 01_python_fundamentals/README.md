@@ -12,10 +12,16 @@ Este módulo introduce el pensamiento algorítmico como una forma de descomponer
 
 El caso de trabajo es un sistema básico de facturación. Su desarrollo permite explicar por qué se utiliza cada estructura antes de escribirla, comprobar los cálculos y documentar las decisiones del algoritmo.
 
+## Cuaderno de trabajo
+
+**[Abrir notebook · Fundamentos de programación y facturación](01_fundamentos_programacion_facturacion.ipynb)**
+
+El cuaderno combina explicaciones, ejemplos ejecutables, ejercicios individuales, un reto integrador y comprobaciones de resultados. Puedes abrirlo en GitHub o descargarlo para ejecutarlo en Google Colab.
+
 ## Evidencia esperada
 
 Un cuaderno reproducible que combine explicación, código funcional, pruebas e interpretación de las salidas.
 
-**Estado:** material de aprendizaje en preparación.
+**Estado:** primer cuaderno disponible; los materiales complementarios se incorporarán progresivamente.
 
 [← Catálogo de proyectos](../README.md)
