@@ -1,4 +1,4 @@
-# Proyecto de analítica financiera | IX Concurso ITM 2026
+# Proyecto de analítica financiera | IX Concurso ITM 2026 |
 
 > **Plantilla de trabajo para estudiantes.** Crea una copia de este archivo en el repositorio de tu equipo y reemplaza los textos entre corchetes. Conserva las preguntas como apoyo durante la investigación. No publiques claves de acceso ni información privada.
 
